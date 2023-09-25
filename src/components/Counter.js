@@ -6,7 +6,7 @@ import { increment, decrement, incrementByAmount } from '../features/counter/cou
 
 const Counter = () => {
 
-    //const counter = useSelector(store=>store.counter.counterValue)
+    //const counter = useSelector(state=>state.counter.counterValue)
     const counter = useSelector(selectCounter); 
      const dispatch = useDispatch();
 
