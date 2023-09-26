@@ -7,7 +7,7 @@ import logger from 'redux-logger';
 
 const store = configureStore({
     reducer:{counter:counterReducer, number:numberReducer},
-    middelware : (getDefaultMiddleware)=>getDefaultMiddleware().concat(logger),
+    middleware : (getDefaultMiddleware)=>getDefaultMiddleware().concat(logger),
 });
 
 export default store;
