@@ -1,5 +1,6 @@
 import Counter from "./components/Counter";
 import Number from './components/Number';
+import Users from "./components/Users";
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Counter/>
       <Number/>
+      <Users/>
     </div>
   );
 }
